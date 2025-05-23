@@ -12,14 +12,15 @@ appDOM.innerHTML=` <div class="password-container">
       </div>
       
       <button class="btn">Generate</button>
-      <button class="btn reset">Reset</button>
+      <button class="btn reset">Password Copied</button>
     </div>
-    <div class="alert-container active">Password Copied</div>
+    
 `
 
 const generateBtnDOM=appDOM.querySelector('.btn');
 const inputDOM=appDOM.querySelector('.input');
 const resetBtnDOM=appDOM.querySelector('.reset');
+
 console.log(resetBtnDOM);
 
 
@@ -36,6 +37,7 @@ generateBtnDOM.addEventListener('click', function() {
 resetBtnDOM.addEventListener('click',()=>{
 
   inputDOM.value='';
+
 })
 
 
