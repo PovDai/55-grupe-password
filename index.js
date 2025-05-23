@@ -35,9 +35,7 @@ generateBtnDOM.addEventListener('click', function() {
 });
 
 resetBtnDOM.addEventListener('click',()=>{
-
-  inputDOM.value='';
-
+inputDOM.value='';
 })
 
 
