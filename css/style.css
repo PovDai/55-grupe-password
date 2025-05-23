@@ -89,7 +89,8 @@ body {
     right: -300px;
   }
 
-  @media(max-width:600px){
+
+    @media(max-width:800px){
 
       .btn {
     background: black;
@@ -104,6 +105,31 @@ body {
   .password-container {
     background-color: pink;
     width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+
+  }
+
+
+
+  @media(max-width:600px){
+
+      .btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .password-container {
+    background-color: pink;
+    width: 320px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
