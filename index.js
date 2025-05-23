@@ -6,13 +6,13 @@ appDOM.innerHTML=` <div class="password-container">
 
       <div class="input-container">
 
-        <input type="text" id="input" class="input" placeholder="Create Password" readonly maxlength="15" required  />
+        <input type="text" id="input" class="input"  placeholder="Create Password" readonly maxlength="15" required  />
         <i class="far fa-copy fa-2x"></i>
 
       </div>
       
       <button class="btn">Generate</button>
-      <button class="btn reset">Password Copied</button>
+      <button class="btn reset">Reset Window</button>
     </div>
     
 `
@@ -31,11 +31,17 @@ generateBtnDOM.addEventListener('click', function() {
   for(let i = 0; i < 15; i++) {
     const pirmas = masyvas[Math.floor(Math.random() * masyvas.length)];
     inputDOM.value += pirmas;
+
+   
   }
 });
 
 resetBtnDOM.addEventListener('click',()=>{
+  
 inputDOM.value='';
+
+
+
 })
 
 
