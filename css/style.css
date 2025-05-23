@@ -104,12 +104,16 @@ body {
   }
   .password-container {
     background-color: pink;
-    width: 350px;
+    width: 300px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin: 10px;
   }
+    .fa-2x{
+    display: none;
+  }
+ 
 
   }
 
@@ -129,11 +133,18 @@ body {
   }
   .password-container {
     background-color: pink;
-    width: 320px;
-    padding: 20px;
+    width: 280px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin: 10px;
+  }
+  .fa-2x{
+    display: none;
+  }
+  .input {
+    font-size: 15px;
+    letter-spacing: 2px;
   }
 
   }
@@ -173,6 +184,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 70%;
   }
 
   }
